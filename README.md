@@ -1,7 +1,7 @@
 # Flask on Docker
 ## Overview
 
-This project explores how to use Flask alongside Docker to make a web app. Some other components of this projects consists of using Postgres to store and manage structured data, Gunicorn for running Python web applications, and Nginx for the production server. These resources were used and installed following this [tutorial published by testdriven.io](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/). The product of the project allows one to upload media to ```http://localhost:<port>/upload```, and view them at ```http://localhost:{port}/media/{image_file_name}```. 
+This project explores how to use Flask alongside Docker to make a web application. Some other components of this project consist of using Postgres to store and manage structured data, Gunicorn for running Python web applications, and Nginx for the production server. These resources were used and installed following this [tutorial published by testdriven.io](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/). The product of the project allows one to upload media to ```http://localhost:<port>/upload```, and view them at ```http://localhost:{port}/media/{image_file_name}```. 
 
 ***Uploading and viewing an image***
 ![Untitled design](https://github.com/JTan242/flask-on-docker/assets/132401824/200bae48-35d7-4417-b00a-e80669ef1572)
